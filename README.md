@@ -59,18 +59,18 @@ The **Hotel Automation Software** is a comprehensive solution designed to simpli
 3. **Install Dependencies**:
     
     ##### Navigate to server and install dependencies
-    cd server
+    cd server <br>
     npm install
     
     ##### Navigate to client and install dependencies
-    cd ../client
+    cd ../client<br>
     npm install
 4. **Start the Application**:
 
       # Start server
-      cd server
+      cd server <br>
       npm run start-legacy
       
       # Start client
-      cd ../client
+      cd ../client <br>
       npx nodemon server.js
